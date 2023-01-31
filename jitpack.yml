@@ -1,3 +1,3 @@
-install:
-  - FILE="-Dfile=react-native-0.67.4.aar"
-  - mvn install:install-file $FILE -DgroupId=react-test -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+install: 
+FILE="-Dfile=reactnative.aar" 
+mvn install:install-file $FILE -DgroupId=com.group.module -DartifactId=react -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
